@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
                     DESC
   s.homepage     = 'https://github.com/honkmaster/TTOpenInAppActivity'
   s.authors      = { 'Tobias Tiemerding' => 'http://www.tiemerding.com' }
-  s.source       = { :git => 'https://github.com/honkmaster/TTOpenInAppActivity.git', :commit => '9cd758169a4effe8fb68a37a6e398e7ae32c39ca' }
-  s.source_files = 'TTOpenInAppActivity/*.{h,m}'
+  s.source       = {:git => "https://github.com/samuraisam/SQLitePersistentObjects", :commit => '335e84038683556e9e47b8160a5daa1f0a95158f' }
+  s.source_files  = 'SQLitePersistentObjects/src/*.{h,m}'
   s.resources    = 'TTOpenInAppActivity/*.png'
   s.frameworks   = 'UIKit', 'MobileCoreServices'
   s.requires_arc = true
