@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.xcconfig   =  { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/cocos2d/external/kazmath/include"' }
   s.frameworks =  ["OpenGLES", "QuartzCore", "GameKit", "CoreText"]
   s.library    =  'z'
-  
+
   s.subspec 'CocosDenshion' do |p|
     p.source_files =  'CocosDenshion/*.{h,m}'
     p.frameworks   =  ["OpenAL", "AVFoundation", "AudioToolbox"]
