@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.exclude_files = 'external/libpng/pngtest.c', 'external/libpng/example.c'
 
   s.xcconfig   =  { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/cocos2d/external/kazmath/include"' }
-  s.frameworks =  ["OpenGLES", "QuartzCore", "GameKit", "CoreText"]
+  s.ios.frameworks =  ["OpenGLES", "QuartzCore", "GameKit", "CoreText"]
+  s.osx.frameworks =  ["OpenGL", "QuartzCore", "GameKit", "CoreText"]
   s.library    =  'z'
   
   s.subspec 'CocosDenshion' do |p|
